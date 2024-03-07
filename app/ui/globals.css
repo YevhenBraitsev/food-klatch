@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --link-color: #8b9a46;
+  --link-2-color: #541212;
+  --color01: #2d2f31;
+  --color0: #8ac832;
+  --color: #a5a58f;
+  --color2: #09f;
+  --color3: #0f9;
+  --color4: #ffd200;
+  --color5: #ff652f;
+  --color6: #f6f193;
+  --color7: #f2c18d;
+  --color8: #b38f6b;
+  --color9: #c5ebaa;
+  --graphite-color: #2d2f31;
+  --graphite-1-color: #3b3d41;
+  --primary-color: #fe724c;
+}
+
+.light {
+  --bg-body-color: #ffe5b4; /* White */
+  --bg-color: #fadeab; /* White */
+  --text-color: #000; /* Dark Grey */
+  /* --primary-color: #fe724c; Light Green */
+  --secondary-color: #ffd700; /* Yellow */
+  --accent-color: #fdfdfd; /* Light Brown */
+  --link-color: #ebef95;
+  --link-2-color: #f6f193;
+}
+
+.dark {
+  --bg-body-color: #2d2f31; /* Graphite */
+  --bg-color: var(--graphite-1-color); /* Graphite */
+  --text-color: #ffffff; /* White */
+  /* --primary-color: #fe724c; Light Grey */
+  --secondary-color: #ff9933; /* Orange */
+  --accent-color: #333333; /* Dark Grey */
+  --link-color: #8b9a46;
+  --link-2-color: #8ac832;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: var(--text-color);
+  background: var(--bg-body-color);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
