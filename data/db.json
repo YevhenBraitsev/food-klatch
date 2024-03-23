@@ -1,0 +1,402 @@
+{
+  "dishes": [
+    {
+      "_id": 125,
+      "name": "Borsch",
+      "imageUrl": "https://via.placeholder.com/600x600",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, minus natus saepe incidunt est molestias magnam velit hic delectus, quos magni illum? Natus neque ipsa pariatur ea, vel sapiente error!",
+      "cooking": [
+        {
+          "step": 1,
+          "description": "Lorem ipsum dolor sit amet consectetur"
+        },
+        {
+          "step": 2,
+          "description": "Lorem ipsum dolor sit amet consectetur AS as ASasbgds as"
+        }
+      ],
+      "ingredience": [
+        {
+          "_id": 12568,
+          "name": "Banana",
+          "category": "Fruit",
+          "description": "A banana is a curved, elongated fruit that is yellow when ripe. It is a good source of potassium and vitamin B6.",
+          "image": "https://via.placeholder.com/600x600",
+          "brand": "Dole",
+          "manufacturer": "Dole Food Company, Inc.",
+          "nutritional_information": {
+            "calories": 105,
+            "fat": 0.3,
+            "protein": 1,
+            "carbohydrates": 27,
+            "sugar": 19,
+            "fiber": 3,
+            "unit_of_measurement": "g"
+          },
+          "ingredients": ["Banana"],
+          "allergens": [],
+          "storage_instructions": "Store bananas in a cool, dry place. Do not refrigerate.",
+          "shelf_life": 5,
+          "price": 0.99,
+          "tags": ["fruit", "potassium", "vitamin B6"]
+        },
+        {
+          "_id": 12568123,
+          "name": "Apple",
+          "category": "Fruit",
+          "description": "An apple is a round, red or green fruit that is a good source of vitamin C and fiber.",
+          "image": "https://via.placeholder.com/600x600",
+          "brand": "",
+          "manufacturer": "N/A",
+          "nutritional_information": {
+            "calories": 95,
+            "fat": 0.3,
+            "protein": 1,
+            "carbohydrates": 25,
+            "sugar": 19,
+            "fiber": 3,
+            "unit_of_measurement": "g"
+          },
+          "ingredients": ["Apple"],
+          "allergens": [],
+          "storage_instructions": "Store apples in a cool, dry place. Do not refrigerate.",
+          "shelf_life": 7,
+          "price": 1.29,
+          "tags": ["fruit", "vitamin C", "fiber"]
+        }
+      ]
+    },
+    {
+      "_id": 12523,
+      "name": "Borsch2",
+      "imageUrl": "https://via.placeholder.com/600x600",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, minus natus saepe incidunt est molestias magnam velit hic delectus, quos magni illum? Natus neque ipsa pariatur ea, vel sapiente error!",
+      "cooking": [
+        {
+          "step": 1,
+          "description": "Lorem ipsum dolor sit amet consectetur"
+        },
+        {
+          "step": 2,
+          "description": "Lorem ipsum dolor sit amet consectetur AS as ASasbgds as"
+        }
+      ],
+      "ingredience": [
+        {
+          "_id": 12568,
+          "name": "Banana",
+          "category": "Fruit",
+          "description": "A banana is a curved, elongated fruit that is yellow when ripe. It is a good source of potassium and vitamin B6.",
+          "image": "https://via.placeholder.com/600x600",
+          "brand": "Dole",
+          "manufacturer": "Dole Food Company, Inc.",
+          "nutritional_information": {
+            "calories": 105,
+            "fat": 0.3,
+            "protein": 1,
+            "carbohydrates": 27,
+            "sugar": 19,
+            "fiber": 3,
+            "unit_of_measurement": "g"
+          },
+          "ingredients": ["Banana"],
+          "allergens": [],
+          "storage_instructions": "Store bananas in a cool, dry place. Do not refrigerate.",
+          "shelf_life": 5,
+          "price": 0.99,
+          "tags": ["fruit", "potassium", "vitamin B6"]
+        },
+        {
+          "_id": 12568123,
+          "name": "Apple",
+          "category": "Fruit",
+          "description": "An apple is a round, red or green fruit that is a good source of vitamin C and fiber.",
+          "image": "https://via.placeholder.com/600x600",
+          "brand": "",
+          "manufacturer": "N/A",
+          "nutritional_information": {
+            "calories": 95,
+            "fat": 0.3,
+            "protein": 1,
+            "carbohydrates": 25,
+            "sugar": 19,
+            "fiber": 3,
+            "unit_of_measurement": "g"
+          },
+          "ingredients": ["Apple"],
+          "allergens": [],
+          "storage_instructions": "Store apples in a cool, dry place. Do not refrigerate.",
+          "shelf_life": 7,
+          "price": 1.29,
+          "tags": ["fruit", "vitamin C", "fiber"]
+        }
+      ]
+    }
+  ],
+  "dish": [
+    {
+      "_id": 125,
+      "name": "Borsch",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, minus natus saepe incidunt est molestias magnam velit hic delectus, quos magni illum? Natus neque ipsa pariatur ea, vel sapiente error!",
+      "cooking": [
+        {
+          "step": 1,
+          "description": "Lorem ipsum dolor sit amet consectetur"
+        },
+        {
+          "step": 2,
+          "description": "Lorem ipsum dolor sit amet consectetur AS as ASasbgds as"
+        }
+      ],
+      "ingredient": [
+        { "_id": 12568567 },
+        { "_id": 12568561 },
+        { "_id": 12568562 }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "_id": 12568567,
+      "name": "Banana",
+      "category": "Fruit",
+      "description": "A banana is a curved, elongated fruit that is yellow when ripe. It is a good source of potassium and vitamin B6.",
+      "image": "https://via.placeholder.com/600x600",
+      "brand": "Dole",
+      "manufacturer": "Dole Food Company, Inc.",
+      "nutritional_information": {
+        "calories": 105,
+        "fat": 0.3,
+        "protein": 1,
+        "carbohydrates": 27,
+        "sugar": 19,
+        "fiber": 3,
+        "unit_of_measurement": "g"
+      },
+      "ingredients": ["Banana"],
+      "allergens": [],
+      "storage_instructions": "Store bananas in a cool, dry place. Do not refrigerate.",
+      "shelf_life": 5,
+      "price": 0.99,
+      "tags": ["fruit", "potassium", "vitamin B6"]
+    },
+    {
+      "_id": 12568561,
+      "name": "Apple",
+      "category": "Fruit",
+      "description": "An apple is a round, red or green fruit that is a good source of vitamin C and fiber.",
+      "image": "https://via.placeholder.com/600x600",
+      "brand": "",
+      "manufacturer": "N/A",
+      "nutritional_information": {
+        "calories": 95,
+        "fat": 0.3,
+        "protein": 1,
+        "carbohydrates": 25,
+        "sugar": 19,
+        "fiber": 3,
+        "unit_of_measurement": "g"
+      },
+      "ingredients": ["Apple"],
+      "allergens": [],
+      "storage_instructions": "Store apples in a cool, dry place. Do not refrigerate.",
+      "shelf_life": 7,
+      "price": 1.29,
+      "tags": ["fruit", "vitamin C", "fiber"]
+    },
+    {
+      "_id": 12568562,
+      "name": "Orange",
+      "category": "Fruit",
+      "description": "An orange is a round, orange fruit that is a good source of vitamin C.",
+      "image": "https://via.placeholder.com/600x600",
+      "brand": "",
+      "manufacturer": "N/A",
+      "nutritional_information": {
+        "calories": 62,
+        "fat": 0.1,
+        "protein": 1,
+        "carbohydrates": 15,
+        "sugar": 12,
+        "fiber": 3,
+        "unit_of_measurement": "g"
+      },
+      "ingredients": ["Orange"],
+      "allergens": [],
+      "storage_instructions": "Store oranges in a cool, dry place. Do not refrigerate.",
+      "shelf_life": 7,
+      "price": 0.99,
+      "tags": ["fruit", "vitamin C"]
+    },
+    {
+      "_id": 1253534,
+      "name": "Grape",
+      "category": "Fruit",
+      "description": "A grape is a small, round fruit that is a good source of antioxidants.",
+      "image": "https://via.placeholder.com/600x600",
+      "brand": "",
+      "manufacturer": "N/A",
+      "nutritional_information": {
+        "calories": 62,
+        "fat": 0.1,
+        "protein": 1,
+        "carbohydrates": 15,
+        "sugar": 15,
+        "fiber": 0.5,
+        "unit_of_measurement": "g"
+      },
+      "ingredients": ["Grape"],
+      "allergens": [],
+      "storage_instructions": "Store grapes in a cool, dry place. Do not refrigerate.",
+      "shelf_life": 7,
+      "price": 1.99,
+      "tags": ["fruit", "antioxidants"]
+    },
+    {
+      "_id": 4568635,
+      "name": "Strawberry",
+      "category": "Fruit",
+      "description": "A strawberry is a red, sweet fruit that is a good source of vitamin C.",
+      "image": "https://via.placeholder.com/600x600",
+      "brand": "",
+      "manufacturer": "N/A",
+      "nutritional_information": {
+        "calories": 32,
+        "fat": 0.3,
+        "protein": 1,
+        "carbohydrates": 15,
+        "sugar": 15,
+        "fiber": 0.5,
+        "unit_of_measurement": "g"
+      },
+      "ingredients": ["Grape"],
+      "allergens": [],
+      "storage_instructions": "Store grapes in a cool, dry place. Do not refrigerate.",
+      "shelf_life": 7,
+      "price": 1.99,
+      "tags": ["fruit", "antioxidants"]
+    }
+  ],
+  "products": [
+    {
+      "_id": 12568,
+      "name": "Banana",
+      "category": "Fruit",
+      "description": "A banana is a curved, elongated fruit that is yellow when ripe. It is a good source of potassium and vitamin B6.",
+      "image": "https://via.placeholder.com/600x600",
+      "brand": "Dole",
+      "manufacturer": "Dole Food Company, Inc.",
+      "nutritional_information": {
+        "calories": 105,
+        "fat": 0.3,
+        "protein": 1,
+        "carbohydrates": 27,
+        "sugar": 19,
+        "fiber": 3,
+        "unit_of_measurement": "g"
+      },
+      "ingredients": ["Banana"],
+      "allergens": [],
+      "storage_instructions": "Store bananas in a cool, dry place. Do not refrigerate.",
+      "shelf_life": 5,
+      "price": 0.99,
+      "tags": ["fruit", "potassium", "vitamin B6"]
+    },
+    {
+      "_id": 12568123,
+      "name": "Apple",
+      "category": "Fruit",
+      "description": "An apple is a round, red or green fruit that is a good source of vitamin C and fiber.",
+      "image": "https://via.placeholder.com/600x600",
+      "brand": "",
+      "manufacturer": "N/A",
+      "nutritional_information": {
+        "calories": 95,
+        "fat": 0.3,
+        "protein": 1,
+        "carbohydrates": 25,
+        "sugar": 19,
+        "fiber": 3,
+        "unit_of_measurement": "g"
+      },
+      "ingredients": ["Apple"],
+      "allergens": [],
+      "storage_instructions": "Store apples in a cool, dry place. Do not refrigerate.",
+      "shelf_life": 7,
+      "price": 1.29,
+      "tags": ["fruit", "vitamin C", "fiber"]
+    },
+    {
+      "_id": 12568567,
+      "name": "Orange",
+      "category": "Fruit",
+      "description": "An orange is a round, orange fruit that is a good source of vitamin C.",
+      "image": "https://via.placeholder.com/600x600",
+      "brand": "",
+      "manufacturer": "N/A",
+      "nutritional_information": {
+        "calories": 62,
+        "fat": 0.1,
+        "protein": 1,
+        "carbohydrates": 15,
+        "sugar": 12,
+        "fiber": 3,
+        "unit_of_measurement": "g"
+      },
+      "ingredients": ["Orange"],
+      "allergens": [],
+      "storage_instructions": "Store oranges in a cool, dry place. Do not refrigerate.",
+      "shelf_life": 7,
+      "price": 0.99,
+      "tags": ["fruit", "vitamin C"]
+    },
+    {
+      "_id": 1253534,
+      "name": "Grape",
+      "category": "Fruit",
+      "description": "A grape is a small, round fruit that is a good source of antioxidants.",
+      "image": "https://via.placeholder.com/600x600",
+      "brand": "",
+      "manufacturer": "N/A",
+      "nutritional_information": {
+        "calories": 62,
+        "fat": 0.1,
+        "protein": 1,
+        "carbohydrates": 15,
+        "sugar": 15,
+        "fiber": 0.5,
+        "unit_of_measurement": "g"
+      },
+      "ingredients": ["Grape"],
+      "allergens": [],
+      "storage_instructions": "Store grapes in a cool, dry place. Do not refrigerate.",
+      "shelf_life": 7,
+      "price": 1.99,
+      "tags": ["fruit", "antioxidants"]
+    },
+    {
+      "_id": 4568635,
+      "name": "Strawberry",
+      "category": "Fruit",
+      "description": "A strawberry is a red, sweet fruit that is a good source of vitamin C.",
+      "image": "https://via.placeholder.com/600x600",
+      "brand": "",
+      "manufacturer": "N/A",
+      "nutritional_information": {
+        "calories": 32,
+        "fat": 0.3,
+        "protein": 1,
+        "carbohydrates": 15,
+        "sugar": 15,
+        "fiber": 0.5,
+        "unit_of_measurement": "g"
+      },
+      "ingredients": ["Grape"],
+      "allergens": [],
+      "storage_instructions": "Store grapes in a cool, dry place. Do not refrigerate.",
+      "shelf_life": 7,
+      "price": 1.99,
+      "tags": ["fruit", "antioxidants"]
+    }
+  ]
+}

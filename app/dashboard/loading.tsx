@@ -1,5 +1,5 @@
-import { ProductSkeleton } from '../ui/skeleton';
+import { DefaultLoader } from '../ui/skeleton';
 
 export default function Loading() {
-  return <ProductSkeleton />;
+  return <DefaultLoader />;
 }

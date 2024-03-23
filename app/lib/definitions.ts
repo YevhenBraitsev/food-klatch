@@ -1,3 +1,17 @@
+export type TDish = {
+  _id: number;
+  name: string;
+  imageUrl: string;
+  description: string;
+  cooking: TCooking[];
+  ingredience: TProduct[];
+};
+
+export type TCooking = {
+  step: number;
+  description: string;
+};
+
 export type TProduct = {
   _id: number;
   name: string;

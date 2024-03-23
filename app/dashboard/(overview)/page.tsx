@@ -1,7 +1,5 @@
+import { PageHeading } from '@/app/ui/layout/heading';
+
 export default async function Page() {
-  return (
-    <>
-      <h1>Home</h1>
-    </>
-  );
+  return <PageHeading>Home</PageHeading>;
 }

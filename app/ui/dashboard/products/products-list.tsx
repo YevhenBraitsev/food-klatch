@@ -1,18 +1,18 @@
 import { getProducts } from '@/app/lib/data';
 import { TProduct } from '@/app/lib/definitions';
+import GridItems from '@/app/ui/layout/grid-items';
+import { Button } from '@/ui/buttons';
+import ImageWrapper from '@/ui/image-wrapper';
+import Tag from '@/ui/tag';
 import Link from 'next/link';
-import { Button } from '../../buttons';
-import ImageWrapper from '../../image-wrapper';
-import Tag from '../../tag';
 import { NutritionalValue } from './nutritional-value';
 
 export const ProductsList = async () => {
-  const { products } = await getProducts();
-  const handleClick = () => {
-    console.log('first');
-  };
+  // const products = await getProducts(); //TODO: for Json Server
+  const { products } = await getProducts(); //TODO: for MongoDB
+
   return (
-    <ul className="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-4">
+    <GridItems>
       {products.map((product: TProduct) => (
         <li
           className="rounded-md bg-block p-5 bg-blend-darken shadow-md shadow-block"
@@ -51,6 +51,6 @@ export const ProductsList = async () => {
           </Button>
         </li>
       ))}
-    </ul>
+    </GridItems>
   );
 };
