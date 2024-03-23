@@ -4,9 +4,9 @@ on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
-      strategy:
-        matrix:
-          nede-version: [ 20.11.x ]
+    strategy:
+      matrix:
+        nede-version: [20.11.x]
     steps:
       - name: Check repository code
         uses: actions/checkout@v4
